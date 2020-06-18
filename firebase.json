@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/poll",
+    "public": "dist/my-dear-daily",
       "ignore": [
       "firebase.json",
       "**/.*",	
