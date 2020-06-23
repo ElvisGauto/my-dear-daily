@@ -8,6 +8,11 @@ import { AuthService } from 'src/app/shared/services/auth.service';
 })
 export class LoginComponent implements OnInit {
 
+  user$;
+
+  email: string;
+  uid: string;
+
   constructor(
     // tslint:disable-next-line:variable-name
     private _authService: AuthService
